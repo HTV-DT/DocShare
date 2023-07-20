@@ -52,7 +52,7 @@ dependencies {
     // https://mvnrepository.com/artifact/com.paypal.sdk/rest-api-sdk
 // https://mvnrepository.com/artifact/com.paypal.sdk/rest-api-sdk
 implementation group: 'com.paypal.sdk', name: 'rest-api-sdk', version: '1.14.0'
-
+implementation group: 'com.google.cloud.sql', name: 'postgres-socket-factory', version: '1.13.0'
 }
 test {
     useJUnitPlatform()
